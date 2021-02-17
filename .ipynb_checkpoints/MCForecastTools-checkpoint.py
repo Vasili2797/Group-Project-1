@@ -72,7 +72,6 @@ class MCSimulation:
         self.nTrading = num_trading_days
         self.simulated_return = ""
         
-        #This code is important
     def calc_cumulative_return(self):
         """
         Calculates the cumulative return of a stock over time using a Monte Carlo simulation (Brownian motion with drift).
